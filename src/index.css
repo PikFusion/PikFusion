@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --animation-delay-100: 0.1s;
+  --animation-delay-200: 0.2s;
+  --animation-delay-300: 0.3s;
+  --animation-delay-400: 0.4s;
+  --animation-delay-500: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-gray-800;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.animate-slideRight {
+  animation: slideRight 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.animate-slideLeft {
+  animation: slideLeft 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.animate-float {
+  animation: float 10s ease-in-out infinite;
+}
+
+.animation-delay-100 {
+  animation-delay: var(--animation-delay-100);
+}
+
+.animation-delay-200 {
+  animation-delay: var(--animation-delay-200);
+}
+
+.animation-delay-300 {
+  animation-delay: var(--animation-delay-300);
+}
+
+.animation-delay-400 {
+  animation-delay: var(--animation-delay-400);
+}
+
+.animation-delay-500 {
+  animation-delay: var(--animation-delay-500);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
