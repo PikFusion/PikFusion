@@ -211,7 +211,7 @@ const Footer: React.FC = () => {
             <address className="not-italic text-gray-300 space-y-3">
               <p className="flex items-start">
                 <span className="w-1.5 h-1.5 bg-purple-400 rounded-full mr-3 mt-2" />
-                PIKFUSION PRIVATE LIMITED <br />Sy No 135/1, No 4 & 5, 4th Floor, <br />Maruthi industrial Estate, <br />Rajapalya, Hoody, Bangalore, <br />KA – 560048.
+                PIKFUSION PRIVATE LIMITED <br />Sy No 135/1, <br />Maruthi industrial Estate, <br />Rajapalya, Hoody, Bangalore, <br />KA – 560048.
               </p>
               <p className="flex items-center">
                 <span className="w-1.5 h-1.5 bg-purple-400 rounded-full mr-3" />
