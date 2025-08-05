@@ -52,7 +52,7 @@ const Header: React.FC = () => {
               <img
                 src={logo}
                 alt="PikFusion Logo"
-                className="w-8 h-8 object-contain"
+                className="w-10 h-10 object-contain"
               />
             </motion.div>
             <motion.span
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
               transition={{ duration: 0.3 }}
               className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
             >
-              PikFusion
+              
             </motion.span>
           </Link>
 
