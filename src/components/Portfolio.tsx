@@ -17,7 +17,7 @@ interface Project {
 const Portfolio: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'E-commerce', 'Education', 'Beauty & Wellness', 'Technology', 'Food & Beverage'];
+  const categories = ['All', 'E-commerce', 'Education', 'Technology', 'Food & Beverage'];
 
   const projects: Project[] = [
     {
@@ -41,6 +41,37 @@ const Portfolio: React.FC = () => {
       featured: true,
       url: "https://www.nexsensemarketing.com/"
     },
+    {
+      id: 3,
+      title: "SvastaCare - Healthcare Consultation Platform",
+      category: "Healthcare",
+      image: "https://images.pexels.com/photos/6129054/pexels-photo-6129054.jpeg",
+      description: "Online healthcare platform offering doctor consultation, appointment booking, and patient record management",
+      technologies: ["React", "Tailwind CSS", "Vercel", "Web3Forms"],
+      featured: true,
+      url: "https://svasthacare.in/"
+    },
+    {
+      id: 4,
+      title: "The Indian Feast - Restaurant Website",
+      category: "Food & Beverage",
+      image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+      description: "Restaurant website with menu showcase, online order request, reservation booking, and email auto-confirmation system",
+      technologies: ["React", "FormSubmit","Tailwind CSS", "Bootstrap", "Vercel"],
+      featured: true,
+      url: "https://www.theindianfeast.co.uk/"
+    },
+    {
+      id: 5,
+      title: "Scoops and Sips Desserts",
+      category: "Food & Beverage",
+      image: "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg",
+      description: "Delicious dessert brand website showcasing product menu, offers, and contact options with modern UI",
+      technologies: ["React", "Bootstrap", "Framer Motion", "Vercel", "FormSubmit"],
+      featured: true,
+      url: "https://www.scoopsandsipsdesserts.co.uk/"
+    },
+
     {
       id: 3,
       title: "Campicar - Car Rental Platform",
@@ -90,16 +121,6 @@ const Portfolio: React.FC = () => {
       technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
       featured: false,
       url: "https://supermaxtech.com"
-    },
-    {
-      id: 7,
-      title: "Panipuri Paradise - Online Ordering",
-      category: "Food & Beverage",
-      image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
-      description: "Food ordering platform with menu management, real-time order tracking, and integrated payment system for restaurant chain",
-      technologies: ["React Native", "Node.js", "Express", "MongoDB", "Razorpay"],
-      featured: true,
-      url: "https://order.panipuri-paradise.com"
     }
   ];
   const [showAll, setShowAll] = useState(false);
