@@ -21,8 +21,18 @@ const Portfolio: React.FC = () => {
 
   const projects: Project[] = [
     {
-
       id: 0,
+      title: "NexSense - Digital Marketing Agency",
+      category: "Technology",
+      image: "/ns.jpg",
+      description: "Performance marketing agency specializing in brand growth, lead generation, and strategic digital solutions.",
+      technologies: ["Next.js", "Tailwind CSS", "Vercel", "Framer Motion", "Web3Forms"],
+      featured: true,
+      url: "https://www.nexsensemarketing.com/"
+    },
+    {
+
+      id: 1,
       title: "House Of Soham",
       category: "Lifestyle & Fashion",
       image: "/hos.jpg",
@@ -33,16 +43,6 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 2,
-      title: "NexSense - Digital Marketing Agency",
-      category: "Technology",
-      image: "/ns.jpg",
-      description: "Performance marketing agency specializing in brand growth, lead generation, and strategic digital solutions.",
-      technologies: ["Next.js", "Tailwind CSS", "Vercel", "Framer Motion", "Web3Forms"],
-      featured: true,
-      url: "https://www.nexsensemarketing.com/"
-    },
-    {
-      id: 3,
       title: "SvastaCare - Healthcare Consultation Platform",
       category: "Healthcare",
       image: "https://images.pexels.com/photos/6129054/pexels-photo-6129054.jpeg",
@@ -52,7 +52,7 @@ const Portfolio: React.FC = () => {
       url: "https://svasthacare.in/"
     },
     {
-      id: 4,
+      id: 3,
       title: "The Indian Feast - Restaurant Website",
       category: "Food & Beverage",
       image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
@@ -62,7 +62,7 @@ const Portfolio: React.FC = () => {
       url: "https://www.theindianfeast.co.uk/"
     },
     {
-      id: 5,
+      id: 4,
       title: "Scoops and Sips Desserts",
       category: "Food & Beverage",
       image: "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg",
@@ -73,7 +73,7 @@ const Portfolio: React.FC = () => {
     },
 
     {
-      id: 3,
+      id: 5,
       title: "Campicar - Car Rental Platform",
       category: "E-commerce",
       image: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg",
@@ -83,7 +83,7 @@ const Portfolio: React.FC = () => {
       url: "https://campicar.fr"
     },
     {
-      id: 4,
+      id: 6,
       title: "ArowMall - Multi-Vendor Marketplace",
       category: "E-commerce",
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
@@ -93,7 +93,7 @@ const Portfolio: React.FC = () => {
       url: "https://arowmall.com"
     },
     {
-      id: 5,
+      id: 7,
       title: "Edulec - Educational Platform",
       category: "Education",
       image: "https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg",
@@ -113,7 +113,7 @@ const Portfolio: React.FC = () => {
     //   url: "https://lullabybeautysalon.com"
     // },
     {
-      id: 6,
+      id: 8,
       title: "SuperMaxTech - Technology Solutions",
       category: "Technology",
       image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
