@@ -90,7 +90,7 @@ const Header: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 className="flex items-center space-x-1 py-2 text-white hover:text-purple-400 transition-colors duration-300"
               >
-                <span>Knowledge Bases</span>
+                <span>Knowledge Base</span>
                 <motion.div
                   animate={{ rotate: isKnowledgeBaseOpen ? 180 : 0 }}
                   transition={{ duration: 0.3 }}
