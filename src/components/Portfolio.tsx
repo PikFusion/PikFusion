@@ -31,16 +31,15 @@ const Portfolio: React.FC = () => {
       url: "https://www.nexsensemarketing.com/"
     },
     {
-
-      id: 1,
-      title: "House Of Soham",
-      category: "Lifestyle & Fashion",
-      image: "/hos.jpg",
-      description: "House of Soham blends traditional Indian block printing with modern, sustainable design to create handcrafted fashion and home decor.",
-      technologies: ["WordPress", "WooCommerce", "Figma", "HTML5", "CSS3"],
-      featured: true,
-      url: "https://houseofsoham.com/"
-    },
+  id: 1,
+  title: "Shri Radha Raman Store",
+  category: "E-commerce",
+  image: "/krishna.jpg", // add screenshot/logo image in public folder
+  description: "Official e-commerce store offering devotional products, spiritual merchandise, puja essentials, and religious items with seamless online shopping experience.",
+  technologies: ["Shopify", "Liquid", "JavaScript", "CSS", "Razorpay"],
+  featured: true,
+  url: "https://shop.shriradharaman.com/in"
+},
     {
       id: 2,
       title: "SvastaCare - Healthcare Consultation Platform",
