@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://www.pikfusion.com/</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
 
-<url>
-  <loc>https://www.pikfusion.com/</loc>
-  <lastmod>2025-08-03T18:03:49+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.pikfusion.com/about</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
 
+  <url>
+    <loc>https://www.pikfusion.com/services</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.pikfusion.com/portfolio</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.pikfusion.com/contact</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.pikfusion.com/knowledge-base/ecommerce</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.pikfusion.com/knowledge-base/restaurant</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.pikfusion.com/privacy-policy</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.pikfusion.com/terms-and-conditions</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
 
 </urlset>
