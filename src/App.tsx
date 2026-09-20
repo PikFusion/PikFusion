@@ -8,6 +8,8 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import EcommerceKnowledge from './pages/EcommerceKnowledge';
 import RestaurantKnowledge from './pages/RestaurantKnowledge';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/knowledge-base/ecommerce" element={<EcommerceKnowledge />} />
           <Route path="/knowledge-base/restaurant" element={<RestaurantKnowledge />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-and-conditions" element={<TermsOfService />} />
         </Routes>
       </Layout>
     </Router>
