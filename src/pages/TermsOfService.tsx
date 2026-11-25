@@ -592,12 +592,6 @@ const TermsOfService: React.FC = () => {
                   </a>
                 </p>
 
-                <p className="mt-2">
-                  Sy No 135/1, No 4 & 5, 4th Floor,
-                  Maruthi Industrial Estate, Rajapalya,
-                  Hoody, Bangalore, Karnataka – 560048, India
-                </p>
-
               </div>
             </section>
 

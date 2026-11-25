@@ -374,26 +374,6 @@ const Footer: React.FC = () => {
 
                 <span className="w-1.5 h-1.5 bg-purple-400 rounded-full mr-3 mt-2 flex-shrink-0" />
 
-                <p className="text-sm leading-relaxed">
-                  <strong className="text-white">
-                    PIKFUSION PRIVATE LIMITED
-                  </strong>
-                  <br />
-                  Sy No 135/1,
-                  <br />
-                  Maruthi Industrial Estate,
-                  <br />
-                  Rajapalya, Hoody,
-                  <br />
-                  Bangalore, Karnataka – 560048
-                </p>
-
-              </div>
-
-              <div className="flex items-start">
-
-                <span className="w-1.5 h-1.5 bg-purple-400 rounded-full mr-3 mt-2 flex-shrink-0" />
-
                 <div className="text-sm">
 
                   <a

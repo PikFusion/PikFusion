@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import {
   Mail,
   Phone,
-  MapPin,
   Send,
   MessageCircle,
   Clock,
@@ -141,15 +140,6 @@ const Contact: React.FC = () => {
         '+91 89195 31591'
       ],
       color: 'from-green-500 to-emerald-500'
-    },
-
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      title: 'Visit PikFusion',
-      details: [
-        'PIKFUSION PRIVATE LIMITED, Sy No 135/1, No 4 & 5, 4th Floor, Maruthi Industrial Estate, Rajapalya, Hoody, Bangalore, Karnataka – 560048.'
-      ],
-      color: 'from-purple-500 to-pink-500'
     },
 
     {
